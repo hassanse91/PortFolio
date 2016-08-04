@@ -170,6 +170,23 @@ header .intro-text .skills {
     border: 0;
 }
 
+
+figure.image {
+  background-position: center center;
+  background-size: cover;
+  border: 5px #efefef solid;
+  border-radius: 50%;
+  bottom: -50px;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.2), 1px 1px 4px rgba(0,0,0,0.3);
+  height: 178px;
+  width: 178px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure.image .img-responsive {
+    position: relative;
+}
+
 section {
     padding: 100px 0;
 }
